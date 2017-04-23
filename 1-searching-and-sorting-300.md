@@ -12,8 +12,8 @@ public static int test(int[] a, int v)
 }
 ```
 
-(A) -1
-(B) 0
-(C) 1
-(D) 2
-(E) The code will not compile
+    (A) -1
+    (B) 0
+    (C) 1
+    (D) 2
+    (E) The code will not compile
