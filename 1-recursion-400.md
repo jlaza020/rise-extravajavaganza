@@ -1,21 +1,16 @@
-### Given the following method declaration, this is printed as the result of the call mystery(1234).
+### Given the following method declaration, the following method will return true if and only if this is true.
 
 ```java
-//precondition:  x >=0
-public static void mystery (int x)
+public static boolean check(String s)
 {
-   System.out.print(x % 10);
-
-   if ((x / 10) != 0)
-   {
-      mystery(x / 10);
-   }
-   System.out.print(x % 10);
+   return s.length() >= 2 &&
+          (s.charAt(0) == s.charAt(1) ||
+           check(s.substring(1)));
 }
 ```
 
-    (A) 1441
-    (B) 43211234
-    (C) 3443
-    (D) 12344321
-    (E) Many digits are printed due to infinite recursion.
+      (A) The string s contains two or more of the same characters.
+      (B) The string s starts with two or more of the same characters.
+      (C) The string s contains two or more of the same character that are next to each other.
+      (D) The string s ends with two or more of the same characters
+
