@@ -1,6 +1,5 @@
-### These lines contains bugs in this piece of code.
+// These lines contains bugs in this piece of code.
 
-```java
 public static int binarySearch(int[] elements, int target) {
   int left = 0;
   int right = elements.length - 1;
@@ -21,4 +20,3 @@ public static int binarySearch(int[] elements, int target) {
    }
    return -1;
 }
-```
